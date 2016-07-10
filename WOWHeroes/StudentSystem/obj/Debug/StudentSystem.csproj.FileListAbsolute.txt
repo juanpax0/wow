@@ -1,0 +1,15 @@
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\bin\Debug\StudentSystem.exe.config
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\bin\Debug\StudentSystem.exe
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\bin\Debug\StudentSystem.pdb
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.csprojResolveAssemblyReference.cache
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.Properties.Resources.resources
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.csproj.GenerateResource.Cache
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.exe
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.pdb
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\bin\Debug\MySql.Data.dll
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.view.Graphs.resources
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.view.UpdateHero.resources
+c:\users\pablo\documents\visual studio 2015\Projects\StudentSystem\StudentSystem\obj\Debug\StudentSystem.AdmHeroes.resources
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\bin\Debug\StudentSystem.exe.config
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.exe
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.pdb

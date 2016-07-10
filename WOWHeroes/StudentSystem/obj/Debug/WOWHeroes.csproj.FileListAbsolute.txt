@@ -1,0 +1,17 @@
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\bin\Debug\StudentSystem.exe.config
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\bin\Debug\StudentSystem.exe
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\bin\Debug\StudentSystem.pdb
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\bin\Debug\MySql.Data.dll
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.Properties.Resources.resources
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.csproj.GenerateResource.Cache
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.exe
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.pdb
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.AdmHeroes.resources
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.view.Graphs.resources
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.view.UpdateHero.resources
+C:\Users\Pablo\Documents\Visual Studio 2015\Projects\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.csproj.ResolveComReference.cache
+C:\Users\Pablo\Desktop\wow\WOWHeroes\StudentSystem\bin\Debug\StudentSystem.exe.config
+C:\Users\Pablo\Desktop\wow\WOWHeroes\StudentSystem\obj\Debug\WOWHeroes.csproj.ResolveComReference.cache
+C:\Users\Pablo\Desktop\wow\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.exe
+C:\Users\Pablo\Desktop\wow\WOWHeroes\StudentSystem\obj\Debug\StudentSystem.pdb
