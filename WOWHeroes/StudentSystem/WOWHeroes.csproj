@@ -61,11 +61,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\Graphs.cs">
+    <Compile Include="view\GraphsHero.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view\Graphs.Designer.cs">
-      <DependentUpon>Graphs.cs</DependentUpon>
+    <Compile Include="view\GraphsHero.Designer.cs">
+      <DependentUpon>GraphsHero.cs</DependentUpon>
     </Compile>
     <Compile Include="view\UpdateHero.cs">
       <SubType>Form</SubType>
@@ -85,8 +85,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="view\Graphs.resx">
-      <DependentUpon>Graphs.cs</DependentUpon>
+    <EmbeddedResource Include="view\GraphsHero.resx">
+      <DependentUpon>GraphsHero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\UpdateHero.resx">
       <DependentUpon>UpdateHero.cs</DependentUpon>

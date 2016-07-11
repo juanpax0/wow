@@ -1,6 +1,6 @@
 ﻿namespace WOWHeroes.view
 {
-    partial class Graphs
+    partial class GraphsHero
     {
         /// <summary>
         /// Required designer variable.

@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace WOWHeroes.view
 {
-    public partial class Graphs : Form
+    public partial class GraphsHero : Form
     {
         private GraphsDAO dbConn;
 
-        public Graphs(MySqlConnection dbConn)
+        public GraphsHero(MySqlConnection dbConn)
         {
             InitializeComponent();
             this.dbConn = new GraphsDAO(dbConn);
@@ -57,7 +57,7 @@ namespace WOWHeroes.view
         private void race()
         {
             MySqlDataReader reader = dbConn.count("count_raz");
-      
+
             while (reader.Read())
             {
                 string race = reader["RAZA"].ToString();

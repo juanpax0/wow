@@ -20,30 +20,30 @@ namespace WOWHeroes
     {
         private AdmHeroesDAO dbConn;
         private UpdateHero update;
-        private Graphs graph;
+        private GraphsHero graph;
         private static Regex regex = new Regex("^[0-9]+$");
-        private static int hW, hH, nW, nH;
+        private static int oW, oH, nW, nH;
 
         public AdmHeroes(MySqlConnection con)
         {
             dbConn = new AdmHeroesDAO(con);
             update = new UpdateHero(con);
-            graph = new Graphs(con);
+            graph = new GraphsHero(con);
             InitializeComponent();
-            init();
         }
 
-        private void init()
+        private void AdmHeroes_Load(object sender, EventArgs e)
         {
             update.button1.Click += new EventHandler(this.update_method);
             pictureBox1.Image = Image.FromFile("../../view/imgs/search.png");
             pictureBox2.Image = Image.FromFile("../../view/imgs/g5.png");
             pictureBox3.Image = Image.FromFile("../../view/imgs/excel.png");
+            pictureBox4.Image = Image.FromFile("../../view/imgs/exit.png");
 
-            hW = pictureBox2.Width;
-            hH = pictureBox2.Height;
-            nW = hW + ((hW * 5) / 100);
-            nH = hH + ((hH * 5) / 100);
+            oW = pictureBox2.Width;
+            oH = pictureBox2.Height;
+            nW = oW + ((oW * 5) / 100);
+            nH = oH + ((oH * 5) / 100);
             get_heroes();
         }
 
@@ -277,8 +277,13 @@ namespace WOWHeroes
 
         private void pictureBox3_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox3.Width = hW;
-            pictureBox3.Height = hH;
+            pictureBox3.Width = oW;
+            pictureBox3.Height = oH;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void pictureBox3_MouseHover(object sender, EventArgs e)
@@ -295,8 +300,8 @@ namespace WOWHeroes
 
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox2.Width = hW;
-            pictureBox2.Height = hH;
+            pictureBox2.Width = oW;
+            pictureBox2.Height = oH;
         }
     }
 }
