@@ -150,10 +150,10 @@ namespace WOWHeroes
                 {
                     int index = listView1.SelectedItems[0].Index;
                     ListViewItem sRow = listView1.Items[index];
-                    string nam = sRow.SubItems[0].Text;
-                    string rac = sRow.SubItems[1].Text;
-                    string sex = sRow.SubItems[2].Text;
-                    string fac = sRow.SubItems[3].Text;
+                    string nam = sRow.SubItems[0].Text; //nombre
+                    string rac = sRow.SubItems[1].Text; //raza
+                    string sex = sRow.SubItems[2].Text; //sexo
+                    string fac = sRow.SubItems[3].Text; //faccion
 
                     update.setComponents(nam, rac, sex, fac);
                     update.ShowDialog();
@@ -284,6 +284,11 @@ namespace WOWHeroes
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void listView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            editarToolStripMenuItem_Click(sender, e);
         }
 
         private void pictureBox3_MouseHover(object sender, EventArgs e)

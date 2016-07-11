@@ -120,10 +120,11 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(273, 120);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(489, 260);
-            this.listView1.TabIndex = 18;
+            this.listView1.Size = new System.Drawing.Size(489, 242);
+            this.listView1.TabIndex = 200;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MouseDoubleClick);
             // 
             // columnNombre
             // 
@@ -188,7 +189,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Location = new System.Drawing.Point(344, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(343, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(67, 60);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -275,7 +276,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(435, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(425, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(67, 60);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
